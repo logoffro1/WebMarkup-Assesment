@@ -1,0 +1,133 @@
+/*
+This is one comment.
+
+
+Cosmin Ilie 2019
+
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Noto+Sans+JP|Nunito:800|Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:800&display=swap');
+	li{
+	display:inline-block;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 35px;
+	padding-left:35px;
+	font-family: 'Arial','Fira', sans-serif;
+	font-size: 20pt;
+	color: #2699FB;
+	font-weight:600;
+
+
+
+}
+
+nav{
+	margin-top:0;
+}
+.navbar{
+	text-align: center;
+	background-color: #000000;
+	border-top: 3px solid  #2699FB;
+	border-bottom: 3px solid  #2699FB;
+	width: 100%;
+/*
+	margin-top:0;
+	margin-left:0;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+*/
+}
+
+.title, .payoff{
+	text-align: center;
+font-family: 'Nunito','Noto','Slabo', sans-serif;
+	
+	margin-bottom: 5px;
+	z-index: 11;
+}
+.title{
+	margin-top:10px;
+	font-size: 60px;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+li:hover{
+	background-color:#2699FB;
+
+
+}
+
+footer{
+	margin-top:10%;
+	text-align: center;
+}
+
+
+.articleFlex{
+	display: flex;
+
+
+	
+}
+section{
+	padding-top:10px;
+		border-bottom:3px solid black;
+		padding-bottom: 15px;
+}
+.main{
+		background-color: #F5F5F5;
+}
+.haarlem1,.haarlem2{
+	flex: .4;
+	font-size: 20px;
+}
+p{
+	padding: 10px;
+}
+.windmill,.church{
+	
+
+	border: 2px solid black;
+	flex:.3;
+	width:300px;
+	height: 300px;
+}
+.church{
+	margin-left:5px;
+}
+.sectionTitle{
+	font-size:30px;
+
+}
+.clubsImg{
+	
+width: 200px;
+height: 200px;
+border:1px solid black;
+	
+
+
+}
+.para{
+
+font-family: 'Noto',sans-serif;
+	display:inline-block;
+
+}
+.clubs{
+width: 40%;
+display: inline-block;
+margin-left: 100px;
+
+
+}
+#sectiontitle
+{
+	margin-left:50px;
+	font-size:30px;
+}
