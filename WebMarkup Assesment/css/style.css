@@ -22,7 +22,11 @@ Cosmin Ilie 2019
 
 
 }
-
+body{
+	width: 90%;
+	margin:auto;
+	
+}
 nav{
 	margin-top:0;
 }
@@ -31,7 +35,7 @@ nav{
 	background-color: #000000;
 	border-top: 3px solid  #2699FB;
 	border-bottom: 3px solid  #2699FB;
-	width: 100%;
+	
 /*
 	margin-top:0;
 	margin-left:0;
@@ -44,15 +48,15 @@ nav{
 .title, .payoff{
 	text-align: center;
 font-family: 'Nunito','Noto','Slabo', sans-serif;
+	margin-top:10px;
 	
 	margin-bottom: 5px;
 	z-index: 11;
 }
 .title{
-	margin-top:10px;
 	font-size: 60px;
 }
-a{
+nav a {
 	color:white;
 	text-decoration: none;
 }
@@ -63,7 +67,7 @@ li:hover{
 }
 
 footer{
-	margin-top:10%;
+	margin-top:5%;
 	text-align: center;
 }
 
@@ -88,6 +92,7 @@ section{
 }
 p{
 	padding: 10px;
+
 }
 .windmill,.church{
 	
@@ -96,21 +101,35 @@ p{
 	flex:.3;
 	width:300px;
 	height: 300px;
+
+
+
+
 }
+
 .church{
 	margin-left:5px;
 }
 .sectionTitle{
 	font-size:30px;
 
+
 }
 .clubsImg{
 	
 width: 200px;
 height: 200px;
-border:1px solid black;
+border:2px solid black;
+opacity: .8;
+transition: opacity .5s;
+
 	
 
+
+}
+.clubsImg:hover{
+	opacity: 1;
+	border: 2px solid blue;
 
 }
 .para{
@@ -130,4 +149,63 @@ margin-left: 100px;
 {
 	margin-left:50px;
 	font-size:30px;
+}
+#brazJiu{
+	width: 300px;
+height: 300px;
+border:2px solid black;
+transition: width 2s;
+}
+#brazJiu:hover{
+	width:550px;
+}
+#test{
+	width: 50%;
+}
+#test2{
+	width:80;
+	margin:auto;
+}
+
+a{
+	text-decoration: none;
+
+}
+form{
+	width: 80%;
+	margin:auto;
+
+}
+textarea{
+	height: 200px;
+	width: 300px;
+}
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #444444;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #707070;
+}
+
+.container {
+  border-radius: 40px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
