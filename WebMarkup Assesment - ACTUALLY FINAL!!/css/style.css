@@ -1,0 +1,323 @@
+/*
+This is one comment.
+
+
+Cosmin Ilie 2019
+
+
+*/
+
+	@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Noto+Sans+JP|Nunito:800|Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:800&display=swap');
+	li{
+	display:inline-block;
+	padding-top: 0.8125em;
+	padding-bottom: 0.8125em;
+	padding-right: 2.1875em;
+	padding-left:2.1875em;
+	font-family: 'Arial','Fira', sans-serif;
+	font-size: 20pt;
+	color: #2699FB;
+	font-weight:600;
+
+
+
+}
+body{
+	width: 90%;
+	margin:auto;
+	margin-top:0.3125em;
+	letter-spacing:0.09375em;
+	
+}
+nav{
+	margin-top:0;
+	position: relative;
+	margin:auto;
+	z-index: 10;
+
+
+}
+.navbar{
+	text-align: center;
+	background-color: #000000;
+	border-top: 0.1875em solid  #2699FB;
+	border-bottom: 0.1875em solid  #2699FB;
+		border-radius: 2.5em;
+	
+/*
+	margin-top:0;
+	margin-left:0;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+*/
+}
+
+.title, .payoff{
+	text-align: center;
+font-family: 'Nunito','Noto','Slabo', sans-serif;
+	margin-top:0.625em;
+	
+	margin-bottom: 0.3125em;
+	z-index: 11;
+
+}
+.title{
+	font-size: 3.75em;
+}
+nav a {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+li:hover{
+	background-color:#2699FB;
+
+
+}
+
+footer{
+	margin-top:1%;
+	text-align: center;
+	background-color: #2699FB;
+}
+
+
+.articleFlex{
+	display: flex;
+
+
+	
+}
+
+section{
+	padding-top:0.625em;
+		border-bottom:0.1875em solid #FFFFFF;
+		padding-bottom: 1.5em;
+		border: 0.25em solid #FFFFFF;
+		margin-bottom:0.3em;
+
+}
+
+.main{
+		background-color: #000000;
+		border-radius:0.7em;
+		opacity: .8;
+		color:#FFFFFF;
+}
+.main:hover{
+opacity: .9;
+border-radius:0.5em;
+}
+.haarlem1, .haarlem2 {
+	flex: .6;
+	font-size: 1.25em;
+	margin-left: 0.625em;
+}
+
+p{
+	padding: 0.625em;
+
+}
+.windmill, .church{
+	
+
+	border: 0.125em solid #FFFFFF;
+	flex:.2;
+	width:18.75em;
+	height: 18.75em;
+	margin-right: 0.625em;
+
+
+
+
+}
+
+.church{
+	margin-left:0.3125em;
+}
+.sectionTitle{
+	font-size:1.875em;
+	margin-left:0.75em;
+
+}
+
+.clubsImg{
+	
+width: 12.5em;
+height: 12.5em;
+border:0.125em solid #FFFFFF;
+opacity: .8;
+transition: opacity .5s;
+
+	
+
+
+}
+.clubsImg:hover{
+	opacity: 1;
+	border: 0.125em solid #2699FB;
+
+}
+.para{
+
+font-family: 'Noto',sans-serif;
+	display:inline-block;
+
+}
+.clubs{
+width: 40%;
+display: inline-block;
+margin-left: 6.25em;
+
+
+}
+#sectiontitle
+{
+	margin-left:0.625em;
+	font-size:1.875em;
+}
+.sectionTitle2
+{
+	margin-left:4em;
+	font-size:1.875em;
+}
+#brazJiu{
+	width: 18.75em;
+height: 18.75em;
+border:0.125em solid #FFFFFF;
+transition: width 2s;
+float: right;
+margin-bottom:0.625em;
+}
+#brazJiu:hover{
+	width:34.375em;
+}
+#test{
+	width: 50%;
+}
+#test2{
+	width:80%;
+	margin:auto;
+}
+
+a{
+	text-decoration: none;
+
+}
+form{
+	width: 80%;
+	margin:auto;
+
+}
+textarea{
+	height: 12.5em;
+	width: 18.75em;
+}
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 0.75em;
+  border: 0.0625em solid #000000;
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  margin-top: 0.375em;
+  margin-bottom: 1em;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #F5F5F5;
+  color: #000000;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #AAAAAA;
+}
+
+.container {
+  border-radius: 2.5em;
+  background-color: #000000;
+  padding: 1.25em;
+}
+#myVideo {
+
+
+  position: fixed;
+
+bottom:0;
+  right:0;
+  min-width: 100%;
+  min-height: 100%;
+
+  	z-index:-1;
+
+}
+label{
+	color:#FFFFFF;
+}
+legend{
+	color:#FFFFFF;
+}
+
+section a:visited{
+	text-decoration: none;
+	color:#2699FB;
+}
+/*
+Customizing my Button the way I like my buttons to look
+*/
+button{
+	opacity: 0;
+}
+#cookies{
+	  padding: .25em 1em .25em 1em;
+  background: #2699FB;
+  display: block;
+  color: #F5F5F5;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  border-radius: 1.875em;
+  margin-left:10%;
+  margin-right:10%;
+  opacity:0.95;
+}
+#cookies h3 {
+  margin-top: .5%;
+  margin-bottom: -1%;
+}
+
+#cookies p {
+  display: inline-block;
+  font-size: 1.25em;
+}
+
+#cookies label {
+  float: right;
+  margin-top: .5em;
+  font-weight: bold;
+  border-radius: 1em;
+  text-align: center;
+  background: #000000;
+  padding: .5em 2em .5em 2em;
+}
+
+#cookies label:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+#close-btn {
+  display: none;
+}
+
+#close-btn:checked ~ #cookies {
+  display: none;
+}
